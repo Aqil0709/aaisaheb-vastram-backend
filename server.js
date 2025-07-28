@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5001; // Use Render's port if available
 // This configuration explicitly allows methods your frontend uses.
 // IMPORTANT: For production, you should replace '*' with your actual frontend domain.
 const corsOptions = {
-  origin: 'aaisahebvastram.com', // e.g., 'https://yourdomain.com'
+  origin: 'https://aaisahebvastram.com', // e.g., 'https://yourdomain.com'
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 };
