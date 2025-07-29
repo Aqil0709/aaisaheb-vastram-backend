@@ -19,7 +19,11 @@ const PORT = process.env.PORT || 5001;
 // --- CORS Configuration for Production ---
 // This configuration explicitly allows methods your frontend uses.
 const corsOptions = {
+<<<<<<< HEAD
   origin: 'https://aaisahebvastram.com', // Your live frontend domain
+=======
+  origin: 'https://aaisahebvastram.com', // e.g., 'https://yourdomain.com'
+>>>>>>> b439795640b7ef5ae2fdfad49619efad9e0baf79
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 };
